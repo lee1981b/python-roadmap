@@ -1,15 +1,3 @@
 # Python Roadmap
 
-## Week 1
-- Set up virtual environment
-- Initialize Git repo
-- Connect to GitHub
-- Scaffold folder structure for weekly work
-
-## Week 2
-
-
-## Week 3
-
-
-## Week 4
+- This Repo Contains Various Python Challenges, Scripts, Functions And Write Ups. The Scripts Are Basic Starter Examples That Can Be Used As A Guide Or Creating Larger more Functionable Scripts. 

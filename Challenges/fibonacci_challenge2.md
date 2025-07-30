@@ -2,12 +2,12 @@
 Let’s level up with an iterative Fibonacci calculator. 
 Fill in the ___ blanks so it prints the n-th Fibonacci number.
 Blanks to fill:
-    1: Function name
-    2: Loop range (how many steps?)
+    1: Function name ____
+    2: Loop range (how many steps?) ____
     3: Tuple assignment (a, b = ___, ___)
     4: Entry-point guard ("___")
-    5: Argument-count check (what number?)
-    6: Recursive call replacement (when printing, call your function)
+    5: Argument-count check (what number?) ____
+    6: Recursive call replacement (when printing, call your function) ____
 
 Script Below:
 
