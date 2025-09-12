@@ -1,6 +1,35 @@
                                        *** Custom Python Scripts ***
 
-This Directory Contains Various Very Basic Scripts. These Are To Help You Get Started With The Basics And Then Add To Them As Required To Build Larger Scrpts.
+# Custom Scripts in Python
+
+**Custom scripts** are Python programs written to solve specific problems or automate tasks.  
+They bring together functions, methods, and classes into standalone files that can be run directly.
+
+### Structure
+A custom script typically includes:
+- **Imports**: any external modules or libraries required.  
+- **Functions/Classes**: reusable logic to keep the code organized.  
+- **Main execution block**: the part of the code that runs when the script is executed.  
+
+### Example
+```python
+import datetime
+
+def greet_user(name):
+    """Return a time-based greeting."""
+    hour = datetime.datetime.now().hour
+    if hour < 12:
+        return f"Good morning, {name}!"
+    elif hour < 18:
+        return f"Good afternoon, {name}!"
+    else:
+        return f"Good evening, {name}!"
+
+if __name__ == "__main__":
+    print(greet_user("Alice"))
+```
+
+### Instructions & Examples for the custom scripts located in this directory.
 
 - PortScaner.py, Scans a single Host/Network (TCP or UDP) for open ports.
 > python3 PortScanner.py <IP address> <start port> <end port> [-u|-n]
@@ -39,3 +68,4 @@ In The Current Directory. It Will Print Any Found Addresses.
 
 - IpDefang.py, This Script Will Defang IP addresses.
 > IpDefang.py
+

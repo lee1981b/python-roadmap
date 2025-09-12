@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-This Script Will Search Through A Given File For Email Addresses,
+This Script Will Search Through A Given File For Email Addresses.
 Enter A File In The Input, Include File Path If The File Is Not
-In The Current Directory. It Will Print Any Found Addresses.
+In The Current Directory.
 """
 import re
 # Define the regex pattern for email addresses
